@@ -2,22 +2,87 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f7fb" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="light dark">
+
+    <title>Davi Matheus | Portfólio — Desenvolvedor Back-end em Formação</title>
     <meta
         name="description"
-        content="Portfólio de Davi Matheus Ferreira Sales, estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento back-end."
+        content="Portfólio de Davi Matheus Ferreira Sales, estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento back-end, JavaScript, Node.js, Express e PostgreSQL."
     >
-    <title>Davi Matheus | Portfólio</title>
+    <meta name="author" content="Davi Matheus Ferreira Sales">
+    <meta name="keywords" content="desenvolvedor back-end, JavaScript, Node.js, Express, PostgreSQL, portfólio, Davi Matheus, mahtsales">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mahtsales.github.io/My-Portfolio/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://mahtsales.github.io/My-Portfolio/">
+    <meta property="og:title" content="Davi Matheus | Portfólio — Desenvolvedor Back-end em Formação">
+    <meta property="og:description" content="Estudante de ADS focado em back-end. JavaScript, Node.js, Express, PostgreSQL. Veja projetos, habilidades e experiência.">
+    <meta property="og:image" content="https://mahtsales.github.io/My-Portfolio/profile-photo/foto-perfil.jpeg">
+    <meta property="og:image:alt" content="Foto de perfil de Davi Matheus Ferreira Sales">
+    <meta property="og:site_name" content="Davi Matheus | Portfólio">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mahtsales.github.io/My-Portfolio/">
+    <meta name="twitter:title" content="Davi Matheus | Portfólio — Desenvolvedor Back-end em Formação">
+    <meta name="twitter:description" content="Estudante de ADS focado em back-end. JavaScript, Node.js, Express, PostgreSQL.">
+    <meta name="twitter:image" content="https://mahtsales.github.io/My-Portfolio/profile-photo/foto-perfil.jpeg">
+    <meta name="twitter:image:alt" content="Foto de perfil de Davi Matheus Ferreira Sales">
+
+    <!-- Favicon (SVG inline, sem dependência externa) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23e11d2f'/%3E%3Cstop offset='1' stop-color='%231b67ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Ctext x='50' y='66' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-size='52' font-weight='900' fill='white'%3EDS%3C/text%3E%3C/svg%3E">
+
+    <!-- Preconnect to speed up font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Outfit:wght@300;400;500;600;700;800&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet"
     >
     <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD: dados estruturados para SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Davi Matheus Ferreira Sales",
+      "url": "https://mahtsales.github.io/My-Portfolio/",
+      "image": "https://mahtsales.github.io/My-Portfolio/profile-photo/foto-perfil.jpeg",
+      "jobTitle": "Estudante de Análise e Desenvolvimento de Sistemas",
+      "description": "Estudante de ADS focado em desenvolvimento back-end com JavaScript, Node.js, Express e PostgreSQL.",
+      "email": "mailto:davimatheusfsales@gmail.com",
+      "telephone": "+55-92-99170-7012",
+      "sameAs": [
+        "https://github.com/mahtsales",
+        "https://www.linkedin.com/in/mahtsales/",
+        "https://instagram.com/mahtsales"
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "HTML5",
+        "CSS3",
+        "Git",
+        "GitHub"
+      ]
+    }
+    </script>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
     <div class="page-glow" aria-hidden="true"></div>
+
     <div class="layout">
         <header class="hero" id="inicio">
             <div class="hero-web hero-web-left" aria-hidden="true"></div>
@@ -25,7 +90,7 @@
 
             <nav class="nav" aria-label="Navegação principal">
                 <a class="brand" href="#inicio">
-                    <span class="brand-mark">DS</span>
+                    <span class="brand-mark" aria-hidden="true">DS</span>
                     <span>Davi Matheus</span>
                 </a>
                 <div class="nav-links">
@@ -50,7 +115,7 @@
 
                     <div class="hero-actions">
                         <a class="button button-primary" href="#projetos">Ver projetos</a>
-                        <a class="button button-secondary" href="https://github.com/mahtsales" target="_blank" rel="noreferrer">Ver GitHub</a>
+                        <a class="button button-secondary" href="https://github.com/mahtsales" target="_blank" rel="noreferrer noopener">Ver GitHub</a>
                     </div>
 
                     <div class="hero-stats">
@@ -75,6 +140,11 @@
                             class="profile-photo"
                             src="profile-photo/foto-perfil.jpeg"
                             alt="Foto de perfil de Davi Matheus Ferreira Sales"
+                            width="320"
+                            height="320"
+                            loading="eager"
+                            decoding="async"
+                            fetchpriority="high"
                         >
                     </div>
 
@@ -99,11 +169,11 @@
             </div>
         </header>
 
-        <main>
-            <section class="section" id="sobre">
+        <main id="main-content">
+            <section class="section" id="sobre" aria-labelledby="sobre-titulo">
                 <div class="section-heading">
                     <p class="section-label">Sobre</p>
-                    <h2>Uma base técnica em construção, com ambição real de crescer</h2>
+                    <h2 id="sobre-titulo">Uma base técnica em construção, com ambição real de crescer</h2>
                 </div>
 
                 <div class="content-card spotlight-card" data-tilt>
@@ -129,10 +199,10 @@
                 </div>
             </section>
 
-            <section class="section" id="projetos">
+            <section class="section" id="projetos" aria-labelledby="projetos-titulo">
                 <div class="section-heading">
                     <p class="section-label">Projetos</p>
-                    <h2>Projetos em desenvolvimento que sustentam minha evolução prática</h2>
+                    <h2 id="projetos-titulo">Projetos em desenvolvimento que sustentam minha evolução prática</h2>
                 </div>
 
                 <div class="projects-grid">
@@ -199,10 +269,10 @@
                 </div>
             </section>
 
-            <section class="section" id="habilidades">
+            <section class="section" id="habilidades" aria-labelledby="habilidades-titulo">
                 <div class="section-heading">
                     <p class="section-label">Habilidades</p>
-                    <h2>Ferramentas e competências para enfrentar qualquer desafio</h2>
+                    <h2 id="habilidades-titulo">Ferramentas e competências para enfrentar qualquer desafio</h2>
                 </div>
 
                 <div class="cards-grid">
@@ -238,10 +308,10 @@
                 </div>
             </section>
 
-            <section class="section" id="experiencia">
+            <section class="section" id="experiencia" aria-labelledby="experiencia-titulo">
                 <div class="section-heading">
                     <p class="section-label">Experiência</p>
-                    <h2>Experiência que reforçou disciplina e visão profissional</h2>
+                    <h2 id="experiencia-titulo">Experiência que reforçou disciplina e visão profissional</h2>
                 </div>
 
                 <article class="timeline-card" data-tilt>
@@ -250,7 +320,7 @@
                             <p class="job-label">Setor de Compras</p>
                             <h3>Aprendiz Administrativo - SAMSUNG</h3>
                         </div>
-                        <span class="status">Concluído</span>
+                        <span class="status" aria-label="Status: concluído">Concluído</span>
                     </div>
 
                     <ul class="timeline-list">
@@ -262,38 +332,58 @@
                 </article>
             </section>
 
-            <section class="section" id="contato">
+            <section class="section" id="contato" aria-labelledby="contato-titulo">
                 <div class="section-heading">
                     <p class="section-label">Contato</p>
-                    <h2>Pronto para conexões profissionais e novas oportunidades</h2>
+                    <h2 id="contato-titulo">Pronto para conexões profissionais e novas oportunidades</h2>
                 </div>
 
                 <div class="contact-grid">
-                    <a class="contact-card" href="mailto:davimatheusfsales@gmail.com" data-tilt>
+                    <a class="contact-card" href="mailto:davimatheusfsales@gmail.com" data-tilt aria-label="Enviar email para Davi Matheus">
                         <span>Email</span>
                         <strong>davimatheusfsales@gmail.com</strong>
                     </a>
-                    <a class="contact-card" href="tel:+5592991707012" data-tilt>
+                    <a class="contact-card" href="tel:+5592991707012" data-tilt aria-label="Ligar para Davi Matheus">
                         <span>Telefone</span>
                         <strong>(92) 99170-7012</strong>
                     </a>
-                    <a class="contact-card" href="https://instagram.com/mahtsales" target="_blank" rel="noreferrer" data-tilt>
+                    <a class="contact-card" href="https://instagram.com/mahtsales" target="_blank" rel="noreferrer noopener" data-tilt aria-label="Ver Instagram de Davi Matheus">
                         <span>Instagram</span>
                         <strong>@mahtsales</strong>
                     </a>
-                    <a class="contact-card" href="https://www.linkedin.com/in/mahtsales/" target="_blank" rel="noreferrer" data-tilt>
+                    <a class="contact-card" href="https://www.linkedin.com/in/mahtsales/" target="_blank" rel="noreferrer noopener" data-tilt aria-label="Ver LinkedIn de Davi Matheus">
                         <span>LinkedIn</span>
                         <strong>linkedin.com/in/mahtsales</strong>
                     </a>
-                    <a class="contact-card" href="https://github.com/mahtsales" target="_blank" rel="noreferrer" data-tilt>
+                    <a class="contact-card" href="https://github.com/mahtsales" target="_blank" rel="noreferrer noopener" data-tilt aria-label="Ver GitHub de Davi Matheus">
                         <span>GitHub</span>
                         <strong>github.com/mahtsales</strong>
                     </a>
                 </div>
             </section>
         </main>
+
+        <footer class="site-footer" role="contentinfo">
+            <p>
+                &copy; <span id="current-year">2026</span> Davi Matheus Ferreira Sales.
+                Construído com HTML, CSS e JavaScript.
+            </p>
+            <p class="footer-links">
+                <a href="https://github.com/mahtsales/My-Portfolio" target="_blank" rel="noreferrer noopener">Código-fonte</a>
+                <span aria-hidden="true">·</span>
+                <a href="#inicio">Voltar ao topo ↑</a>
+            </p>
+        </footer>
     </div>
 
-    <script src="script.js"></script>
+    <noscript>
+        <div class="noscript-banner" role="alert">
+            Este portfólio funciona melhor com JavaScript ativado, mas o conteúdo
+            principal permanece acessível. Os efeitos de movimento e a foto de perfil
+            com tilt são opcionais.
+        </div>
+    </noscript>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
