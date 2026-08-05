@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mahtsales.github.io/My-Portfolio/sitemap.xml
